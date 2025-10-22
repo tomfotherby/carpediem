@@ -1,0 +1,2 @@
+# Allow all robots to access our site
+User-agent: *

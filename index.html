@@ -9,6 +9,8 @@
         body { font-family: Verdana, sans-serif;line-height: 1.5; color: #333; background-color: #f4f4f4; padding: 20px; }
         .container { max-width: 1200px;margin: 0 auto;background: white;padding: 2rem;border-radius: 8px;box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         header { text-align: center;margin-bottom: 2rem;padding-bottom: 1rem;border-bottom: 1px solid #eee; }
+        header nav { display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; }
+        header nav a:last-child { margin-left: auto; }
         h1 { color: #2c3e50; margin-bottom: 0.5rem; }
         main { margin-bottom: 2rem; }
         footer { text-align: center;padding-top: 1rem;border-top: 1px solid #eee;color: #7f8c8d;font-size: 0.9rem; }
@@ -21,7 +23,12 @@
 <div class="container">
     <header>
         <h1>The Carpe $DIEM Blog</h1>
-        <h2>Learning in the open about Venice.AI</h2>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="links.html">Links</a>
+        <a href="https://venice.ai" style="color:salmon;">🤖 venice.ai</a>
+        </nav>
     </header>
 
     <main>
@@ -31,7 +38,8 @@
         I write about <a href="https://venice.ai">Venice.ai</a>, a artificial intelligence platform that I find interesting for many reasons, particularly because it was funded and co-founded by an outspoken libertarian with a passion for privacy, freedom, decentralisation and fighting back against censorship.
 
         <p>
-        I recommend using VeniceAI over other AI providers if you value your privacy and want to use models aimed at providing the truth (i.e. most uncensored).
+        All major AI providers monitor your interactions, store and read your content, censor your words, and restrict what you’re permitted to know. Venice is your escape hatch.
+        I recommend using Venice over other AI providers if you value your privacy and want to use models aimed at providing the truth (i.e. most uncensored).
     </section>
 
     <section>
