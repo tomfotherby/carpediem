@@ -9,7 +9,8 @@
         body { font-family: Verdana, sans-serif;line-height: 1.5; color: #333; background-color: #f4f4f4; padding: 20px; }
         .container { max-width: 1200px;margin: 0 auto;background: white;padding: 2rem;border-radius: 8px;box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         header { text-align: center;margin-bottom: 2rem;padding-bottom: 1rem;border-bottom: 1px solid #eee; }
-        section time { font-family: monospace;font-style: normal;font-size: 15px; }
+        section time { font-family: monospace;font-style: normal;font-size: 15px;background-color: #d33;color: white;border: 1px solid #ccc;border-radius: 0 0 20px 20px;padding: 0.6rem; }
+        section { margin-top: 3rem; }
         header nav { display: flex; justify-content: flex-start; align-items: center; gap: 1.5rem; }
         header nav a:last-child { margin-left: auto; }
         h1 { color: #2c3e50; margin-bottom: 0.5rem; }
@@ -46,33 +47,36 @@
     </section>
 
     <section>
-        <h3>[<time datetime="2025-11-26">26/Nov/25</time>] OpenAI had a data breach</h3>
+        <h3><time datetime="2025-11-26">26/Nov/25</time> OpenAI had a data breach</h3>
 
         <p>
-        Privacy focused services such as Venice purposely avoid telemetry gathering services so that breaches <em>can't</em> happen.<br>
+        👍 Privacy focused services such as Venice purposely avoid telemetry gathering services so that breaches <em>can't</em> happen.<br>
         When <strong>privacy</strong> isn't a core feature, a news story like the following is inevitable...<br>
-        One of the telemetry services that OpenAI uses had a security breach that leaked user data:
 
+        <p>
+        👎 One of the telemetry services that OpenAI uses had a security breach that leaked user data:
         <blockquote>
-             &gt; What to know about the recent OpenAI Mixpanel security incident: <a href="https://openai.com/index/mixpanel-incident/">https://openai.com/index/mixpanel-incident/</a>
+             &gt; Mixpanel was used as a third-party web analytics provider to help OpenAI understand product usage.<br>
+             &gt; On November 9, 2025, Mixpanel became aware of an attacker that gained unauthorized access to part of their systems and exported a dataset containing limited customer identifiable information and analytics information.
         </blockquote>
+        (source: <a href="https://openai.com/index/mixpanel-incident/">https://openai.com/index/mixpanel-incident/</a>)
 
         <p>
         Moral of the story: 🛡️ "<em>Just use Venice</em>"
     </section>
 
-    <hr>
 
     <section>
-        <h3>[<time datetime="2025-11-26">26/Nov/25</time>] VVV vs DIEM infographics (with Nano Banana Pro)</h3>
+        <h3><time datetime="2025-11-26" data-day="26" data-month="NOV">26/Nov/25</time> VVV vs DIEM infographics (with Nano Banana Pro)</h3>
 
         <p>
         Google's Nano Banana Pro is good at producing infographics.
-        Here's 2 from the <a href="https://discord.com/channels/1318981892061794375/1319700020034932888/1443258107026473161">community Discord channel</a> that explain VVV and DIEM:
-        <img src="images/20251127_vvvtoDiem_infographic.png" />
-        <img src="images/20251127_vvvtoDiem_infographic2.png" />
+        Here's 2 from the <a href="https://discord.com/channels/1318981892061794375/1319700020034932888/1443258107026473161">community Discord channel</a> that explain how VVV and DIEM interact:
+        <p>
+        Version 1: <img alt="Infographic showing how VVV enables tokenized intelligence with DIEM v1" src="images/20251127_vvvtoDiem_infographic.png" />
+        <br>
+        Version 2: <img alt="Infographic showing how VVV enables tokenized intelligence with DIEM v2" src="images/20251127_vvvtoDiem_infographic2.png" />
     </section>
-
 
 
     </main>
