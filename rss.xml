@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>The Carpe $DIEM Blog - News</title>
+    <link>https://carpediem.show/news.html</link>
+    <description>Venice AI news curated by a privacy-minded human.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>OpenAI had a data breach</title>
+      <link>https://carpediem.show/news.html#openai-mixpanel-breach</link>
+      <guid isPermaLink="false">openai-mixpanel-breach-2025-11-26</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+        OpenAI disclosed that one of its telemetry providers, Mixpanel, suffered a security breach leaking limited customer-identifiable analytics data.
+        The incident underlines why privacy-focused services like Venice avoid such telemetry, so these kinds of leaks can't happen by design.
+        ]]>
+      </description>
+    </item>
+
+    <item>
+      <title>VVV vs DIEM infographics (with Nano Banana Pro)</title>
+      <link>https://carpediem.show/news.html#vvv-diem-infographics</link>
+      <guid isPermaLink="false">vvv-diem-infographics-2025-11-26</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+        Two community-made infographics generated with Google's Nano Banana Pro explain how VVV enables tokenized intelligence with DIEM,
+        showing visually how the two interact. Check the images on the news page for Version 1 and Version 2.
+        ]]>
+      </description>
+    </item>
+
+  </channel>
+</rss>
